@@ -1,0 +1,793 @@
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .cover
+    {
+        background-image: url(../img/carousel-2.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+    .cover h1{
+        color: white;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .cover nav 
+    {
+        background-color: black;
+        /* display: inline-block; */
+        padding: 15px;
+        position: absolute;
+        top:20px;
+        right: 0;
+    }
+
+    .cover nav a
+    {
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+    }
+
+    .cover h3
+    {
+        color: red;
+        text-align: center;
+        word-spacing: 8px;
+        margin-top: 183px;
+        margin-bottom: 40px;
+    }
+
+    .cover .body
+    {
+        text-align: center;
+        font-size: 80px;
+    }
+
+    .cover button
+    {
+        height: 45px;
+        width: 180px;
+        background: none;
+        color: white;
+        border: 2px solid white;
+        margin-left: 45%;
+        margin-top: 4%;
+        margin-bottom: 20%;
+    }
+
+    .cover .building
+    {
+        position: absolute;
+        width: 70%;
+        display: flex;
+        margin: auto;
+        bottom: -210px;
+        left: 15%;
+    
+    }
+
+    .cover .building .orange
+    {
+        width: 50%;
+        text-align: right;
+        color: white;
+        padding-right: 30px;
+        background-color:rgba(255, 0, 0, 0.801) ;
+        padding-left: 30px;
+    }
+
+    .cover .building .black
+    {
+        width: 50%;
+        text-align: left;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:black;
+
+    }
+
+    .cover .building .orange button
+    {
+        margin-top: 40px;
+        width: 120px;
+        height: 35px;
+    }
+
+    .cover .building .black button
+    {
+        margin-top: 40px;
+        width: 120px;
+        height: 35px;
+        margin-left: 0px;
+    }
+
+    .cover .building .orange p
+    {
+        margin-top: 20px;
+
+    }
+    .cover .building .black p
+    {
+        margin-top: 20px;
+
+    }
+
+    .experience
+    {
+        width: 70%;
+        display:flex ;
+        margin-left: 15%;
+        margin-top: 20%
+    }
+
+    .experience .photo
+    {
+        /* background-image: url(/img/about.jpg);
+        background-size: 200px 200px;
+        background-repeat: no-repeat; */
+        /* padding-top: 200px; */
+        width: 50%;
+    }
+
+    .experience .exp
+    {
+        padding-top: 20px;
+        padding-left: 40px;
+        width: 50%;
+    }
+
+    .experience .exp button
+    {
+        background: none;
+        border: 2px solid red;
+        width: 130px;
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .experience h1
+    {
+        margin-bottom: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .experience .p
+    {
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    .experience .flex
+    {
+        display: flex;
+    }
+
+    .experience .flex .certify
+    {
+        padding: 10px;
+        
+    }
+
+    .experience .flex .award
+    {
+        padding: 10px;
+    }
+
+    .experience .flex i
+    {
+        color: red;
+        font-size: 60px;
+        padding-left: 5px;  
+        margin-bottom: 10px;
+    }
+
+    .experience .flex p
+    {
+        margin-top: 10px;
+        color: black;
+    }
+    /* Experience end here */
+
+    .provide
+    {
+        width: 100%;
+        display: flex;
+        color: white;
+        margin-top: 60px;
+    
+    }
+
+    .provide .progression
+    {
+        width: 33.3%;
+        display: flex;
+        background-color:black;
+        padding: 50px;
+
+    }
+
+    .provide .workout
+    {
+        width: 33.3%;
+        display: flex;
+        background-color: red;
+        padding: 50px;
+
+    }
+
+    .provide .nutrition
+    {
+        width: 33.3%;
+        display: flex;
+        background-color: black;
+        padding: 50px;
+
+    }
+
+    .provide i
+    {
+        font-size: 40px;
+        padding: 30px;
+        color:black
+    }
+
+    .provide .red 
+    {
+        color: red;
+    }
+
+    .provide h2
+    {
+        margin-bottom: 10px;
+    } 
+
+    /* provide ends here */
+
+
+    .benifit .why{
+        color: red;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 20px;
+
+    }
+
+    .benifit h2
+    {
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 20px;
+
+    }
+
+    .benifit .content
+    {
+        width: 70%;
+        display:flex ;
+        margin-left: 15%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+
+    }
+    .benifit .content p
+    {
+        color: black;
+    }
+
+    .benifit .content .data
+    {
+        width: 50%;
+        display: flex;
+        padding : 20px 20px 20px 0px;
+    }
+
+    .benifit .content .data section
+    {
+        margin-left: 20px;
+    }
+
+    .benifit .content .data section h3
+    {
+        margin-top:10px;
+        margin-bottom: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .benifit .content .data img 
+    {
+        position: relative;
+    }
+
+    .benifit .content .data i{
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        margin-left: 130px;
+        margin-top: -15px;
+    }
+
+    .benifit .content .data .f 
+    {
+        margin-left: 155px;
+    }
+
+    /* Benifit ends here */
+
+    
+
+    .subscribe
+    {
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        position: relative;
+    }
+
+    .subscribe video
+    {
+        opacity: 90%;
+        margin-left: 33.5%;
+        position: absolute;
+    }
+    .subscribe .content
+    {
+        position: inherit;
+    }
+    .subscribe h1
+    {
+        
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 40px;
+    }
+
+    .subscribe p
+    {
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe .email
+    {
+        margin-left: 36%;
+        opacity: 100%;
+    }
+
+    .subscribe .email input
+    {
+        height: 40px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .subscribe .email button
+    {
+        height: 45px;
+        font-size: 20px;
+        background-color: red;
+    }
+
+    /* subscribe ends here */
+
+    /* Timetable starts here */
+
+    .timetable h4
+    {
+        text-align: center;
+        margin-top: 50px;
+        color: red;
+    }
+
+    .timetable h1
+    {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .timetable nav
+    {
+        margin-left: 37%;
+        margin-top: 20px;
+
+    }
+
+    .timetable nav a
+    {
+        padding: 10px;
+        color: red;
+    }
+
+    .timetable nav .classes
+    {
+        color: white;
+        background-color: red;
+    }
+
+    .timetable table
+    {
+        margin-left: 5%;
+        margin-top: 40px;
+    }
+
+    .timetable table th
+    {
+        background-color: black;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 150px;
+        height: 40px;
+    }
+
+    .timetable tr
+    {
+        text-align: center;
+    }
+
+
+    .timetable table td
+    {
+        border: 1px solid black;
+        padding: 10px;
+
+    }
+    .timetable .time 
+
+    {
+        background-color: black;
+        color: white;
+    }
+    /* Timetable ends here */
+
+        .bmi
+        {
+            width: 90%;
+            margin-top: 40px;
+            display: flex;
+        }
+
+        .bmi .back-bmi
+        {
+            background-image: url(/img/carousel-1.jpg);
+            width: 60%;
+            background-size: cover;
+            padding: 120px;
+        }
+
+        .bmi .back-bmi h3
+        {
+            color: red;
+        }
+
+        .bmi .back-bmi h1,p
+        {
+            color: white;
+            margin-top: 10px;
+        }
+
+        .bmi .calculate
+
+        {
+            background-color: black;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 130px;
+        }
+
+        .bmi .calculate h2
+        {
+            color: white;
+        }
+
+        .bmi .calculate ul
+        {
+            list-style-type: none;
+            margin-top:10px;
+            
+        }
+
+        .bmi .calculate li
+        {
+            display: inline-block;
+        }
+
+        .bmi .calculate li input
+        {
+            padding: 7px;
+            margin: 4px;
+            background-color: darkgrey;
+            border: 1px solid white;
+            color: lightgrey;
+        }
+
+        .bmi .calculate button
+        {
+            margin-left: 3px;
+            margin-top: 15px;
+            height: 30px;
+            width: 98%;
+            background-color: darkgrey;
+            border: 3px solid white ;
+        }
+    /* BMI  ends here */
+
+    .trainer 
+    {
+        padding-top: 50px;
+    }
+
+    .trainer h4
+    {
+        color: red;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .trainer h1
+    {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .trainer .trainers
+    {
+        display: flex;
+        margin-left:7%;
+        
+    }
+
+    .trainer .trainers .team
+    {
+        text-align: center;
+        background-color: black;
+        margin-left: 30px;
+        padding-bottom: 20px;
+        
+    }
+
+    .trainer .trainers .team h3
+    {
+        color: red;
+        padding: 10px;
+    }
+
+    .trainer .trainers .team a
+    {
+        color: white;
+
+    }
+    /* Trainers Ends here */
+
+    .review
+    {
+        margin-top: 80px;
+        margin-left: 10%;
+        width: 90%;
+        height: 400px;
+        background-color: black;
+    }
+
+    .review .client
+    {
+        width: 40%;
+        float: left;
+        padding-top: 90px;
+        padding-left: 30px;
+    }
+
+    .review .client section
+    {
+        padding: 20px;
+    }
+
+    .review .client img
+    {
+        border-radius: 50%;
+    }
+
+    .review .client h3
+    {
+        color: red;
+
+    }
+
+    .review .client .profession
+    {
+        display: flex;
+
+    }
+    .review .client a
+    {
+        color:white;
+
+    }
+
+    .review .client .massege
+    {
+        color: white;
+        width: 90%;
+        background-color:darkgrey;
+        height: 100px;
+        padding: 20px;
+        margin-top: 20px;
+        border: 2px solid white;
+        padding-bottom: 20px;
+    }
+
+    .review .testimonial
+    {
+        width: 60%;
+        height: 400px;
+        float: right;
+        padding-left: 30px;
+        background-image: url(/img/carousel-2.jpg);
+        background-size: cover;
+    }
+
+    .review .testimonial h3
+    {
+        color: red;
+        padding-bottom: 10px;
+        padding-top: 160px;
+    }
+
+    .review .testimonial h1
+    {
+        color:white;
+        padding-bottom: 10px;
+    }
+
+    .review .testimonial p
+    {
+        color:rgb(255, 255, 255);
+        padding-right: 250px;
+    }
+
+
+
+    /* comments ends here */
+
+    .blog .article
+    {
+        width: 70%;
+        margin-left: 15%;
+        display: flex;
+    }
+
+    .blog h4
+    {
+        text-align: center;
+        color: red;
+        margin-top: 80px;
+    }
+
+    .blog h1
+    {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .blog .article .art
+    {
+        width: 50%;
+        margin-left: 20px;
+        padding-bottom: 80px;
+    }
+
+    .blog .article .art p
+    {
+    color: black;
+    }
+
+    .blog .article .art .offer
+    {
+    display: flex;
+    }
+
+    .blog .article .art .offer a
+    {
+    padding: 3px;
+    }
+
+    .blog .article .art .offer .date
+    {
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50%;
+    text-align: center  ;
+    color: white;
+    }
+    .blog .article .art .offer .date span
+    {
+    font-weight: bold ;
+    }
+
+    .blog .article .art section
+    {
+    margin-top: 10px;
+    padding-left: 10px;
+    }
+
+    .blog .article .art button
+    {
+    color:red;
+    height: 30px;
+    width: 120px;
+    border: 2px solid red;
+    margin-top: 20px;
+    }
+
+    /* Blog Ends here */
+    footer
+    {
+        background-image: url(/img/bg.jpg);
+        
+    }
+    footer .f
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        color:white
+
+    }
+
+    footer .f .data
+    {
+        margin-left: 130px;
+        
+    }
+
+    footer .f .data li
+    {
+    padding: 10px;
+}
+
+    footer .f .data h2
+    {
+        color: red;
+    }
+
+    footer p{
+        margin-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    footer span
+    {
+        font-weight: bold;
+    }
+
+    @media (max-width:768px)
+    {
+        *{
+            flex-wrap: wrap;
+        }
+
+        nav {
+            display: none;
+        }
+
+        .cover h3 {
+
+            margin-top: 44px;
+            margin-bottom: 0px;
+        }
+
+        .cover .body {
+            font-size: 35px;
+        }
+    }
